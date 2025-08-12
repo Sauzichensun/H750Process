@@ -33,3 +33,4 @@ h750process\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h
 h750process\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h
 h750process\main.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
 h750process\main.o: ../Core/Inc/memorymap.h
+h750process\main.o: ../Core/Inc/gpio.h
