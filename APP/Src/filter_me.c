@@ -25,6 +25,8 @@ void filter_init(void)
 {
     // 初始化滤波器实例，pState 数组会被自动清零
     arm_biquad_cascade_df1_init_f32(&S_bandpass, NUM_STAGES, pCoeffs, pState);
+    
+    
 }
 
 void bandpass_filter(float *adc_data,float len,float *out_filter)
@@ -36,7 +38,11 @@ void bandpass_filter(float *adc_data,float len,float *out_filter)
         float *output_block_ptr = &out_filter[i*BLOCK_SIZE];
         arm_biquad_cascade_df1_f32(&S_bandpass, input_block_ptr, output_block_ptr,BLOCK_SIZE);
     }
-}   
+    
+}
+
+
+
 
 
 

@@ -1,17 +1,15 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "GCC",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE",
-                "__CC_ARM",
-                "__STATIC_INLINE=static"
-            ]
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc", 
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64" 
         }
     ],
     "version": 4

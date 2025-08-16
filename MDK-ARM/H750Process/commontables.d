@@ -1,21 +1,17 @@
-h750process\commontables.o: E:/Keil/ARM/PACK/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/CommonTables.c
-h750process\commontables.o: E:/Keil/ARM/PACK/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/arm_common_tables.c
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_types.h
-h750process\commontables.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
-h750process\commontables.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
-h750process\commontables.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
-h750process\commontables.o: E:\Keil\ARM\ARMCC\Bin\..\include\string.h
-h750process\commontables.o: E:\Keil\ARM\ARMCC\Bin\..\include\math.h
-h750process\commontables.o: E:\Keil\ARM\ARMCC\Bin\..\include\float.h
-h750process\commontables.o: E:\Keil\ARM\ARMCC\Bin\..\include\limits.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_common_tables.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/fast_math_functions.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_memory.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/none.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/utils.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/basic_math_functions.h
-h750process\commontables.o: E:/Keil/ARM/PACK/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/arm_const_structs.c
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_const_structs.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/transform_functions.h
-h750process\commontables.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/complex_math_functions.h
-h750process\commontables.o: E:/Keil/ARM/PACK/ARM/CMSIS-DSP/1.16.2/Source/CommonTables/arm_mve_tables.c
+h750process/commontables.o: \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Source\CommonTables\CommonTables.c \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Source\CommonTables\arm_common_tables.c \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_math_types.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_common_tables.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\fast_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_math_memory.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\none.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\utils.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\basic_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Source\CommonTables\arm_const_structs.c \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_const_structs.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\transform_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\complex_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Source\CommonTables\arm_mve_tables.c

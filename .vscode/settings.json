@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ipynb": "python",
+        "*.cpp": "c",
+        "filter_coeffs.h": "c",
+        "filter_me.h": "c",
+        "main.h": "c"
+    }
+}

@@ -53,7 +53,7 @@
 "h750process\transformfunctions.o"
 "h750process\transformfunctionsf16.o"
 "h750process\windowfunctions.o"
---strict --scatter "H750Process\H750Process.sct"
+--library_type=microlib --strict --scatter "H750Process\H750Process.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "H750Process.map" -o H750Process\H750Process.axf

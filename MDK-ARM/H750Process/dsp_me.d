@@ -1,59 +1,48 @@
-h750process\dsp_me.o: ..\APP\Src\dsp_me.c
-h750process\dsp_me.o: ../Core/Inc/main.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
-h750process\dsp_me.o: ../Core/Inc/stm32h7xx_hal_conf.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Include/core_cm7.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Include/cmsis_version.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Include/mpu_armv7.h
-h750process\dsp_me.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\math.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h
-h750process\dsp_me.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
-h750process\dsp_me.o: ../APP/Inc/dsp_me.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_math.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_types.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\string.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\float.h
-h750process\dsp_me.o: E:\Keil\ARM\ARMCC\Bin\..\include\limits.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_memory.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/none.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/utils.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/basic_math_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/interpolation_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/bayes_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/statistics_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/fast_math_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/matrix_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/complex_math_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/controller_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/support_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/distance_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/svm_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/svm_defines.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/transform_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/filtering_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/quaternion_math_functions.h
-h750process\dsp_me.o: E:\Keil\ARM\PACK\ARM\CMSIS-DSP\1.16.2\Include\dsp/window_functions.h
+h750process/dsp_me.o: ..\APP\Src\dsp_me.c ..\Core\Inc\main.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal.h \
+  ..\Core\Inc\stm32h7xx_hal_conf.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h750xx.h \
+  ..\Drivers\CMSIS\Include\core_cm7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_dma_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_mdma.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_exti.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_cortex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_flash.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_flash_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_hsem.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
+  ..\APP\Inc\dsp_me.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_math.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_math_types.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\arm_math_memory.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\none.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\utils.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\basic_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\interpolation_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\bayes_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\statistics_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\fast_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\matrix_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\complex_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\controller_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\support_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\distance_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\svm_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\svm_defines.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\transform_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\filtering_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\quaternion_math_functions.h \
+  E:\AppData\KEIL\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\window_functions.h
